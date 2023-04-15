@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Comfortaa', cursive;
+    background-image: url(/assets/images/Capturar3.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: rgb(241, 230, 160);
+    margin: 20px 0;
+}
+
+.find {
+    display: flex;
+    width: 300px;
+}
+.find #searchInput {
+    flex: 1;
+    padding: 10px;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 0;
+}
+.find button {
+    padding: 10px;
+    font-size: 15px;
+    border: 0;
+    background-color: rgb(104, 110, 99);
+    color: #FFF;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.find button:hover {
+    background-color: rgba(190, 178, 90, 0.794);
+}
+
+.result {
+    width: 300px;
+    display: none;
+    border: 1px dotted #FFF;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.title {
+    width: 100%;
+    color: #FFF;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+.info {
+    display: flex;
+    width: 100%;
+}
+.info .weather {
+    flex: 1;
+    text-align: center;
+}
+.info .wind {
+    flex: 1;
+    text-align: center;
+}
+.weatherTitle,
+.windTitle {
+    color: rgb(241, 230, 160);
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.weatherInfo,
+.windInfo {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: bold;
+}
+.weatherInfo sup {
+    font-size: 15px;
+    font-weight: normal;
+}
+.windInfo span {
+    font-size: 15px;
+    font-weight: normal;
+}
+.windArea {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #FFF;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 20px;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+.windPoint {
+    width: 15px;
+    height: 1px;
+    background-color: #FFF;
+    transform-origin: left;
+}
+
+.notice {
+    color: #FFF;
+    padding-top: 20px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 400px;
+    color: rgb(241, 230, 160);
+    font-size: 18px;
+}
+
+ul {
+    margin-top: 40px;
+    letter-spacing: 6em;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 360px) {
+
+    h1 {
+      font-size: 20px;
+    }
+
+    .find {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+    }
+
+    button {
+        width: 30%;
+        margin-top: 5px;
+    }
+
+    #searchInput {
+        width: 80%;
+    }
+
+    footer {
+        margin-top: 200px;
+        color: rgb(241, 230, 160);
+        font-size: 18px;
+        text-align: center;
+    }
+
+    ul {
+        /* margin-top: 40px; */
+        letter-spacing: 3em;
+    }
+
+    .icon {
+        width: 25px;
+        height: 25px;
+    }
+
+}
