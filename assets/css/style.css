@@ -44,9 +44,11 @@ h1 {
     border-radius: 5px;
     margin-left: 10px;
     cursor: pointer;
+    transition: 1s;
 }
 .find button:hover {
     background-color: rgba(190, 178, 90, 0.794);
+    transition: 1s;
 }
 
 .result {
@@ -137,6 +139,11 @@ ul {
 
 .icon {
     cursor: pointer;
+    transition: 1s;
+}
+
+.icon:hover {
+    width: 30px;
 }
 
 @media screen and (max-width: 360px) {
