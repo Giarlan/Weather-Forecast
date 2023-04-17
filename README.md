@@ -13,7 +13,8 @@
 > ### Deploy
 > * Test by using the link below
 > 
->   https://lambent-meringue-93c5d3.netlify.app
+>   https://fanciful-genie-weather-forecast.netlify.app
+
 
 > ### Technologies Used
 > * HTML, CSS and JavaScript
