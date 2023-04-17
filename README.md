@@ -8,7 +8,7 @@
 > - [X] Submit button
 
 > ### Home Page
-> ![Movies](https://user-images.githubusercontent.com/108962578/231310526-ca19bde4-0b94-4843-9415-4f57eacece41.png)
+> ![Weather](https://user-images.githubusercontent.com/108962578/232352832-85df4e87-d902-4f96-8b5e-4d90a45d723f.png)
 
 > ### Deploy
 > * Test by using the link below
@@ -16,7 +16,7 @@
 >   https://lambent-meringue-93c5d3.netlify.app
 
 > ### Technologies Used
-> * HTML, CSS and Bootstrap
+> * HTML, CSS and JavaScript
 >
 >   ![Imagem1](https://user-images.githubusercontent.com/108962578/231318644-d3f00f6d-ddfe-4843-b069-9bd5e71d0a95.png)
 
