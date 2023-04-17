@@ -19,7 +19,7 @@
 > ### Technologies Used
 > * HTML, CSS and JavaScript
 >
->   ![Imagem1](https://user-images.githubusercontent.com/108962578/231318644-d3f00f6d-ddfe-4843-b069-9bd5e71d0a95.png)
+>   ![Imagem1](https://user-images.githubusercontent.com/108962578/232353877-d3f14d59-7605-4d3f-9822-d5762758a31f.png)
 
 > ## Autor
 > ---
