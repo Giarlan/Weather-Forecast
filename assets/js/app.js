@@ -5,10 +5,10 @@ document.querySelector('.find').addEventListener('submit', async (event) => {
     
     if(input !== '') {
         clearInfo();
-        showWarning('Carregando...');
+        showWarning('Loading...');
 
         let results = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=
-        ${encodeURI(input)}&units=metric&lang=pt_br&appid=d06cdb298fafc83c520d5ab677fc477e`);
+        ${encodeURI(input)}&units=metric&lang=en&appid=d06cdb298fafc83c520d5ab677fc477e`);
         let json = await results.json();
 
         if(json.cod === 200) {
